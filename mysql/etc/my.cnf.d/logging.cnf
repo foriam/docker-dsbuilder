@@ -1,0 +1,5 @@
+[mysqld]
+log_warnings      = 2
+
+# General logging has huge performance penalty therefore is disabled by default
+general_log       = off
