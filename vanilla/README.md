@@ -21,3 +21,8 @@ Once both the docker daemon and client are installed, execute the following comm
 When started, the wildfly server in the docker image will perform as if it was installed locally on the host.
 
 For an overview of getting started with Data Services Builder please see the [Getting Started](https://developer.jboss.org/wiki/GettingStartedWithDataServicesBuilder) article.
+
+## Credentials
+
+* Management user:    __admin__   password: __secret__
+* Teiid      user:    __user__    password: __user1234!__
