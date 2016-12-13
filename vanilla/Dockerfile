@@ -8,7 +8,7 @@ MAINTAINER Teiid-Komodo Community <http://teiiddesigner.jboss.org>
 
 # Env variables
 ENV VDB_BENCH_RELEASE_DIRECTORY "0.1-SNAPSHOT"
-ENV VDB_BENCH_RELEASE_EAR "vdb-bench-ear-0.1-20161205.211209-3.ear"
+ENV VDB_BENCH_RELEASE_EAR "vdb-bench-ear-0.1-20161213.120502-4.ear"
 ENV VDB_BENCH_EAR_URL "https://repository.jboss.org/nexus/service/local/repositories/snapshots/content/org/teiid/vdb-bench-ear/$VDB_BENCH_RELEASE_DIRECTORY/$VDB_BENCH_RELEASE_EAR"
 ENV VDB_BENCH_EAR_FILE "ds-builder-archive.ear"
 
