@@ -34,6 +34,12 @@ When started, the wildfly and mysql servers in the docker image will perform as 
 
 For an overview of getting started with Data Services Builder please see the [Getting Started](https://developer.jboss.org/wiki/GettingStartedWithDataServicesBuilder) article.
 
+# Changing Configuration
+
+It is possible to override the installed configuration of any docker directory by mounting an host directory. Such a directory is accessible from both the host and docker container. For example, to override the Wildfly configuration directory, the following should be added to the 'run' command above:
+
+    docker run -v $HOST_CONFIG_DIRECTORY:/opt/jboss/wildfly/standalone/configuration ... ...
+
 ## Credentials
 
 * Wildfly
