@@ -23,7 +23,7 @@ To get acquainted with docker, see the [Docker Documentation](https://docs.docke
 
 Once both the docker daemon and client are installed, execute the following command. This will download the docker image from its repository and start the wildfly application server.
 
-    docker run -it -p 3306:3306 -p 8443:8443 -p 9900:9900 -p 31000:31000 teiidkomodo/dsbuilder-mysql-usstates
+    docker run -it -p 3306:3306 -p 8443:8443 -p 9990:9990 -p 31000:31000 teiidkomodo/dsbuilder-mysql-usstates
 
 * -i : Runs in interactive mode
 * -t : Allocates a psuedo console
